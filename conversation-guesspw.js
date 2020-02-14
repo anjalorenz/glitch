@@ -24,7 +24,7 @@
     },
 */
 
-const chat = { 
+const chat = {
   1: {
     text:
       "Kannst Du Dir etwas unter Brute-Force- und Wörterbuchangriffen etwas vorstellen?",
@@ -161,11 +161,7 @@ const chat = {
   17: {
     text:
       "✔️ Richtig. Zumindest mit der Rechenkapazitität, die wir in dem Rechenbeispiel der letzten Lerneinheit vorausgesetzt haben.",
-    options: [
-      { text:"Wie lange würde das denn dauern?",
-    next: 18
-      }
-      ]
+    options: [{ text: "Wie lange würde das denn dauern?", next: 18 }]
   },
   18: {
     text:
@@ -178,9 +174,9 @@ const chat = {
     options: [
       {
         text: "Warum ist das so?",
-    next: 20
-        }
-      ]
+        next: 20
+      }
+    ]
   },
   20: {
     text:
@@ -191,10 +187,8 @@ const chat = {
     text:
       "Beispielsweise findet man sie über persönliche Webseiten oder öffentliche Profile auf Social-Media-Plattformen.",
     options: [
-      { text: "Und wenn man online gar nichts über mich findet?",
-    next: 22
-       }
-      ]
+      { text: "Und wenn man online gar nichts über mich findet?", next: 22 }
+    ]
   },
   22: {
     text:

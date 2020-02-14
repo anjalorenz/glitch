@@ -160,18 +160,23 @@ const chat = {
   },
   17: {
     text:
-      "✔️ Richtig. Zumindest mit der Rechenkapazitität, die wir in der letzten Lerneinheit vorausgesetzt haben.",
-    next: 18
+      "✔️ Richtig. Zumindest mit der Rechenkapazitität, die wir in dem Rechenbeispiel der letzten Lerneinheit vorausgesetzt haben.",
+    options: [{ text: "Wie lange würde das denn dauern?", next: 18 }]
   },
   18: {
     text:
-      "Wie wir im Rechenbeispiel zum Brute-Force-Angriff gesehen haben, würde dieser für ein 10-stelliges Passwort (wie 'Marie13665'), das aus Buchstaben und Zahlen besteht, ca. 12 Jahre zum Entschlüsseln brauchen.",
+      "Ein Brute-Force-Angriff würde für ein 10-stelliges Passwort (wie 'Marie13665'), das aus Buchstaben und Zahlen besteht, ca. 12 Jahre zum Entschlüsseln brauchen.",
     next: 19
   },
   19: {
     text:
       "Mit cleverem Raten kann eine Angreiferin oder ein Angreifer also viel schneller zum Ziel kommen als mit der Brute-Force-Methode.",
-    next: 20
+    options: [
+      {
+        text: "Warum ist das so?",
+        next: 20
+      }
+    ]
   },
   20: {
     text:
@@ -181,7 +186,9 @@ const chat = {
   21: {
     text:
       "Beispielsweise findet man sie über persönliche Webseiten oder öffentliche Profile auf Social-Media-Plattformen.",
-    next: 22
+    options: [
+      { text: "Und wenn man online gar nichts über mich findet?", next: 22 }
+    ]
   },
   22: {
     text:

@@ -252,7 +252,7 @@ const chat = {
     next: 28
   },
   30: {
-    text: "✔️ Richtig! Das ergab <a href="https://www.internetx.com/news/diese-cyber-angriffsarten-sind-bei-kriminellen-besonders-beliebt/" target="_blank">eine Studie aus dem Jahr 2017</a>.",
+    text: "✔️ Richtig! Das ergab eine Studie von KPMG aus dem Jahr 2017.",
     next: 31
   },
   31: {

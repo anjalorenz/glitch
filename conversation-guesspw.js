@@ -53,7 +53,7 @@ const chat = {
     options: [
       {
         text:
-          "🔀 Beim Wörterbuchangriff werden zufällig ein paar Wörter der englischen Sprache durchgetestet.",
+          "🔀 Die Stärke liegt darin, dass die Wahrscheinlichkeit, zufällig das richtige Passwort zu finden, durch umfassende Wörterbücher sehr hoch wird.",
         next: 5
       },
       {
@@ -65,7 +65,7 @@ const chat = {
   },
   5: {
     text:
-      "🚫 Nein, auch der Wörterbuchangriff ist umfangreich und es können Wortlisten aller Sprachen oder auch Passwortlisten zugrunde gelegt werden.",
+      "🚫 Nein, Wörterbuchangriffe sind sehr systematisch und basieren nicht auf Zufälligkeit.",
     next: 4
   },
   6: {
@@ -75,17 +75,17 @@ const chat = {
   },
   7: {
     text:
-      "🎯 Daher verlegen sich Angreifer, die auf fremde Accounts zugreifen wollen, gern auf das Raten von Passwörtern.",
+      "🎯 Daher verlegen sich Angreifer, die auf fremde Accounts zugreifen wollen, gern auf das <b>Raten von Passwörtern.</b>",
     options: [
       {
         text: "🤔 Meinst Du das ernst?",
-        next: 8
+        next: 9
       }
     ]
   },
   8: {
-    text: "Ob ich das ernst meine?",
-    next: 9
+    text: "😳 Ahhh!",
+    next: 12
   },
   9: {
     text: "Jupp! 😯",
@@ -93,7 +93,7 @@ const chat = {
   },
   10: {
     text:
-      "Dazu kann man beim Angriff zum Beispiel einfach die beliebtesten Passwörter testen. Hat man damit kein Glück, versucht man zum Beispiel, Namen oder Geburtsdaten aus dem Umfeld des Opfers auszuprobieren.",
+      "Dazu kann man beim Angriff zum Beispiel einfach die <b>beliebtesten Passwörter</b> testen. Hat man damit kein Glück, versucht man zum Beispiel, <b>Namen oder Geburtsdaten</b> aus dem Umfeld des Opfers auszuprobieren.",
     options: [
       {
         text: "😠 Der Angreifer kennt mein Umfeld doch gar nicht!",
@@ -109,7 +109,7 @@ const chat = {
   11: {
     text:
       "Dieses Vorgehen ist natürlich nur dann praktikabel, wenn der Angreifer Dein Umfeld – und Dich – kennt!",
-    next: 12
+    next: 8
   },
   12: {
     text:
@@ -133,7 +133,7 @@ const chat = {
   },
   15: {
     text:
-      "Weißt Du, warum bei diesem Passwort das clevere Raten erfolgreicher ist als der Brute-Force-Angriff?",
+      "Kannst Du Dir vorstellen, warum bei diesem Passwort das clevere Raten erfolgreicher ist als der Brute-Force-Angriff?",
     options: [
       {
         text:
@@ -180,19 +180,19 @@ const chat = {
   },
   20: {
     text:
-      "Cleveres Raten ist auch deshalb erfolgsversprechend, weil viele Informationen über das Opfer möglicherweise sogar online und damit einfach herauszufinden sind.",
+      "Cleveres Raten ist auch deshalb erfolgsversprechend, weil <b>viele Informationen über das Opfer möglicherweise sogar online</b> und damit einfach herauszufinden sind.",
     next: 21
   },
   21: {
     text:
-      "Beispielsweise findet man sie über persönliche Webseiten oder öffentliche Profile auf Social-Media-Plattformen.",
+      "Beispielsweise findet man sie über <b>persönliche Webseiten</b> oder <b>öffentliche Profile auf Social-Media-Plattformen</b>.",
     options: [
       { text: "Und wenn man online gar nichts über mich findet?", next: 22 }
     ]
   },
   22: {
     text:
-      "Wird man hier nicht fündig, könnten die Angreifenden auch versuchen, das Opfer selbst oder dessen Familie oder Bekannte geschickt auszufragen.",
+      "Wird man hier nicht fündig, könnten die Angreifenden auch versuchen, das Opfer selbst oder dessen Familie oder Bekannte <b>geschickt auszufragen</b>.",
     next: 23
   },
   23: {
@@ -222,12 +222,7 @@ const chat = {
     next: 23
   },
   25: {
-    text: "✔️ Genau!",
-    next: 26
-  },
-  26: {
-    text:
-      "Social Engineering ist die geschickte Beeinflussung von anderen Menschen mit dem Ziel, dass sie bestimmte Handlungen ausführen.",
+    text: "✔️ Genau!<br> <b>Social Engineering</b> ist die geschickte Beeinflussung von anderen Menschen mit dem Ziel, dass sie bestimmte Handlungen ausführen.",
     next: 27
   },
   27: {
@@ -257,7 +252,7 @@ const chat = {
     next: 28
   },
   30: {
-    text: "✔️ Richtig!",
+    text: "✔️ Richtig! Das ergab <a href="https://www.internetx.com/news/diese-cyber-angriffsarten-sind-bei-kriminellen-besonders-beliebt/" target="_blank">eine Studie aus dem Jahr 2017</a>.",
     next: 31
   },
   31: {

@@ -128,7 +128,7 @@ const chat = {
     options: [
       {
         text:
-          "Das stimmt, aber auch dann kennt der Angreifer mein Umfeld doch gar nicht!",
+          "🤔 Das stimmt, aber auch dann kennt der Angreifer mein Umfeld doch gar nicht!",
         next: 11
       }
     ]
@@ -155,7 +155,7 @@ const chat = {
     options: [
       {
         text:
-          "Dann brauchen Brute-Force-Angriff bei diesem Passwort tatsächlich ca. 12 Jahre zum Entschlüsseln? 📅",
+          "🤔 Dann brauchen Brute-Force-Angriff bei diesem Passwort tatsächlich ca. 12 Jahre zum Entschlüsseln? 📅",
         next: 17
       }
     ]
@@ -163,7 +163,7 @@ const chat = {
   17: {
     text:
       "✔️ Richtig. Zumindest mit der Rechenkapazitität, die wir in dem Rechenbeispiel der letzten Lerneinheit vorausgesetzt haben.",
-    options: [{ text: "Wie lange würde das denn dauern?", next: 18 }]
+    options: [{ text: "🤔 Wie lange würde das denn dauern?", next: 18 }]
   },
   18: {
     text:
@@ -175,7 +175,7 @@ const chat = {
       "Mit cleverem Raten kann eine Angreiferin oder ein Angreifer also viel schneller zum Ziel kommen als mit der Brute-Force-Methode.",
     options: [
       {
-        text: "Warum ist das so?",
+        text: "🤔 Warum ist das so?",
         next: 20
       }
     ]
@@ -189,7 +189,7 @@ const chat = {
     text:
       "Beispielsweise findet man sie über <b>persönliche Webseiten</b> oder <b>öffentliche Profile auf Social-Media-Plattformen</b>.",
     options: [
-      { text: "Und wenn man online gar nichts über mich findet?", next: 22 }
+      { text: "😏 Und wenn man online gar nichts über mich findet?", next: 22 }
     ]
   },
   22: {
@@ -228,7 +228,7 @@ const chat = {
       "✔️ Genau!<br> <b>Social Engineering</b> ist die geschickte Beeinflussung von anderen Menschen mit dem Ziel, dass sie bestimmte Handlungen ausführen.",
     options: [
       {
-        text: "Wie verbreitet ist Social Engineering?",
+        text: "🤔 Wie verbreitet ist Social Engineering?",
         next: 28
       }
     ]
